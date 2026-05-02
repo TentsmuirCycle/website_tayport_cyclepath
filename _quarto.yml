@@ -20,6 +20,9 @@ website:
       - href: map.qmd
         text: Map
         icon: map
+      - href: faq.qmd
+        text: FAQ
+        icon: question-circle
       - href: news.qmd
         text: Updates
         icon: newspaper
