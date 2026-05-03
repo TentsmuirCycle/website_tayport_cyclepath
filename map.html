@@ -350,6 +350,7 @@ ul.task-list li input[type="checkbox"] {
       desc: "Following the route of the former Tayport Branch Line. Largely flat, minimal road crossings and minimal impact on fields compared to other routes and likely the least expensive to construct as it's mostly already a path on an old railway line.",
       color: "#2a7ae2",
       dashArray: "8, 8",
+      sectionId: "option-a",
       coords: [
         [56.382570449907860, -2.887055452463500],
         [56.389524357176917, -2.880870561883650],
@@ -377,6 +378,7 @@ ul.task-list li input[type="checkbox"] {
       desc: "An alternative route suggested by stakeholders. This route has the same issues as Option B and is 2.2 km longer than the railway option. A large portion of this route would follow an existing haul road in Tentsmuir, however, the start of the route is prone to flooding that would likely require major works to construct a raised road.",
       color: "#BA55D3",
       dashArray: "8, 8",
+      sectionId: "option-c",
     coords: [
       [56.382566098322592, -2.887070944118728],
       [56.381709379911548, -2.885493343664496],
@@ -425,6 +427,7 @@ ul.task-list li input[type="checkbox"] {
       desc: "An alternative route running through the inside of Tentsmuir and then joining the back road to Leuchars. This route avoids private land but would require the road to be widened at several points, has more ascent and descent and is less direct.",
       color: "#e27a2a",
       dashArray: "8, 8",
+      sectionId: "option-b",
       coords: [
         [56.441502281331701, -2.871111208758136],
         [56.435395585344722, -2.869062745057350],
@@ -700,9 +703,13 @@ ul.task-list li input[type="checkbox"] {
       });
       activePolyline = polyline;
 
+      const moreInfo = path.sectionId
+        ? `<br/><a href="#${path.sectionId}" onclick="document.getElementById('${path.sectionId}').scrollIntoView({behavior:'smooth'}); return false;" style="font-size:0.85em;">More info ↓</a>`
+        : "";
+
       L.popup()
         .setLatLng(e.latlng)
-        .setContent(`<strong>${path.name}</strong><br/>${path.desc}`)
+        .setContent(`<strong>${path.name}</strong><br/>${path.desc}${moreInfo}`)
         .openOn(map);
 
       L.DomEvent.stopPropagation(e);
@@ -720,6 +727,46 @@ ul.task-list li input[type="checkbox"] {
     });
   });
 </script>
+<section id="route-details" class="level2">
+<h2 class="anchored" data-anchor-id="route-details">Route details</h2>
+<section id="option-a" class="level3">
+<h3 class="anchored" data-anchor-id="option-a">Option A – Old Railway Line (Preferred)</h3>
+<p><strong>Distance:</strong> 6.7 km | <strong>Status:</strong> Preferred route</p>
+<p>Option A follows the route of the former Tayport Branch Line, which closed in 1966. The trackbed is largely flat and intact, offering a direct, traffic-free corridor between Tayport and Leuchars. Key advantages include:</p>
+<ul>
+<li>Minimal road crossings, improving safety for all users</li>
+<li>Low impact on agricultural land compared to the other options</li>
+<li>Likely the least expensive route to construct due to the existing formation</li>
+<li>The historic railway alignment is well understood and largely in public or sympathetic ownership</li>
+</ul>
+<p>This is our preferred option and the one we are actively promoting with Fife Council and Transport Scotland.</p>
+<hr>
+</section>
+<section id="option-b" class="level3">
+<h3 class="anchored" data-anchor-id="option-b">Option B – Tentsmuir Forest Route: 8.0 km</h3>
+<p><strong>Distance:</strong> 8.0 km | <strong>Status:</strong> Alternative under consideration</p>
+<p>Option B runs through the interior of Tentsmuir Forest before joining the back road to Leuchars. While it avoids private land, it comes with several challenges:</p>
+<ul>
+<li>The back road to Leuchars is narrow and would need to be widened at several points</li>
+<li>The route is 1.3 km longer than Option A</li>
+<li>Road widening works would be more disruptive and costly than the railway option</li>
+<li>Sections through the forest may be affected by forestry operations</li>
+</ul>
+<p>This option remains under consideration but is not currently preferred.</p>
+<hr>
+</section>
+<section id="option-c" class="level3">
+<h3 class="anchored" data-anchor-id="option-c">Option C – Tentsmuir Route: 8.9 km</h3>
+<p><strong>Distance:</strong> 8.9 km | <strong>Status:</strong> Alternative under consideration</p>
+<p>Option C is a longer alternative through Tentsmuir suggested by some stakeholders. It shares many of the same challenges as Option B, and is an additional 2.2 km compared to the preferred railway route. A large portion of this route would follow an existing forestry track, which offers some advantage, but:</p>
+<ul>
+<li>The overall length makes it less attractive for everyday cycling trips</li>
+<li>It still requires road sections that would need improvement</li>
+<li>The additional distance reduces its competitiveness as a practical commuter or leisure route</li>
+</ul>
+<p>This option is retained for completeness but is not preferred at this stage.</p>
+<hr>
+</section>
 <section id="active-travel-strategy" class="level3">
 <h3 class="anchored" data-anchor-id="active-travel-strategy">Active travel strategy</h3>
 <p>The Tayport Cycle Link forms part of Fife Council’s broader Active Travel Strategy connecting Fife’s towns and villages with safe cycle routes. You can find more information about the Active Travel Strategy on the Fife Council website.</p>
@@ -729,6 +776,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
