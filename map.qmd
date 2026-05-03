@@ -406,6 +406,9 @@ Click on any route to see more details. The dashed lines are possible routes and
 </script>
 ```
 
+
+<p>
+<p>
 ## Route details
 
 ### Option A – Old Railway Line {#option-a}
@@ -454,7 +457,7 @@ This option is retained for completeness but is not preferred at this stage.
 
 ### Active travel strategy
 
-The Tayport Cycle Link forms part of Fife Council's broader Active Travel Strategy connecting Fife's towns and villages with safe cycle routes. You can find more information about the Active Travel Strategy on the Fife Council website.
+The Tayport Cycle Link forms part of Fife Council's broader [Active Travel Strategy](https://www.fife.gov.uk/__data/assets/file/0019/40078/active-travel-strategy-and-action-plan.pdf)connecting Fife's towns and villages with safe cycle routes. You can find more information about the Active Travel Strategy on the Fife Council website.
 
 ![](./images/active_travel_map.png){.rounded-img}
 
