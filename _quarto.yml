@@ -1,10 +1,13 @@
 ---
 project:
   type: website
+  resources:
+    - CNAME
 website:
   title: "Tentsmuir Cycle Link"
+  site-url: "https://www.tentsmuircyclelink.org.uk"
   announcement: 
-    content: "Please take our survey - it makes a huge difference in promoting this route to Fife Council. Click [here](survey.qmd) to start"
+    content: "Please take our survey - it makes a huge difference in promoting this route to Fife Council. Click [here](/survey.qmd) to start"
     position: below-navbar 
     type: info
   navbar:
@@ -26,6 +29,9 @@ website:
       - href: news.qmd
         text: Updates
         icon: newspaper
+      - href: about.qmd
+        text: About
+        icon: people
     right:
       - href: survey.qmd
         text: Survey
