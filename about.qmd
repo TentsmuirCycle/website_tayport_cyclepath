@@ -15,7 +15,7 @@ Our objective is simple:
 
 > To build a safe, direct active travel link between **Tayport and Leuchars**.
 
-Tayport and Leuchars are only a few kilometres apart, but today there is no safe way to travel between them by bike or on foot. The options are a narrow, busy road or a long detour on forest tracks. A direct, segregated route would close the last gap in the active travel network between Dundee and St Andrews, and open up Tentsmuir Forest and the coast to far more people.
+Tayport and Leuchars are only four miles apart, but today there is no reasonably direct and safe way to travel between them by bike or on foot. The options are a narrow, busy road or a long detour on forest tracks. A direct, segregated route would close the last gap in the active travel network between Dundee and St Andrews, and open up Tentsmuir Forest and the coast to far more people.
 
 You can read more about the proposed route on our [map](map.qmd) page, and about what the link would mean for the area on our [benefits](benefits.qmd) page.
 
