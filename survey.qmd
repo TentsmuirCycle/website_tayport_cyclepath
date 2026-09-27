@@ -25,3 +25,5 @@ The survey only takes five minutes and includes an opportunity to add any additi
    target="survey"> <i class="fas fa-donate" style="margin-right: 8px;"></i>Complete the Survey Now</a>
 :::
 
+
+_We know folk can be passionate about this but please, whether for or against, only take this survey once. We have tools to detect multiple responses; gaming the survey just means all your responses will be removed. Thanks!_
