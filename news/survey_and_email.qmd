@@ -1,0 +1,11 @@
+---
+title: "Tech issues: survey overload and email address bug"
+image: bug.png
+format: html
+---
+
+Hi everyone. We have been really happy with the levels of response so far (thanks!) - so much so the survey actually went down briefly on the 26th. That's all fixed now and won't happen again. 
+
+We also identified our email address has not been working so very sorry if you attempted to contact us. Our email is [tentsmuircyclelink (at) proton.me](mailto:tentsmuircyclelink@proton.me) - we will read every email. Please send us an email again if you attempted to do so. 
+
+Apologies for any inconvenience and thanks for visiting the site!
