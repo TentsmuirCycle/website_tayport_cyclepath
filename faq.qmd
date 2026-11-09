@@ -3,7 +3,7 @@ title: "Frequently Asked Questions"
 format: html
 ---
 
-Got questions about the Tentsmuir Cycle Link? We've answered the most common ones below. If you'd like to ask something else, feel free to [contact us](mailto:info@tayportcyclepath.org).
+Got questions about the Tentsmuir Cycle Link? We've answered the most common ones below. If you'd like to ask something else, feel free to [contact us](mailto:tentsmuircyclelink@proton.me).
 
 ------------------------------------------------------------------------
 
@@ -129,4 +129,4 @@ You can also spread the word by sharing the website with friends, family and nei
 
 ### Who can I contact if I have more questions?
 
-Feel free to [get in touch by email](mailto:info@tayportcyclepath.org); we'd love to hear from you.
+Feel free to [get in touch by email](mailto:tentsmuircyclelink@proton.me); we'd love to hear from you.
