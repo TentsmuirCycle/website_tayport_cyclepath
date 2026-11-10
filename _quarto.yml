@@ -33,6 +33,9 @@ website:
         text: About
         icon: people
     right:
+      - href: signup.qmd
+        text: Sign Up
+        icon: envelope
       - href: survey.qmd
         text: Survey
         icon: list-check

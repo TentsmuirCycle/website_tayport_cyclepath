@@ -97,6 +97,8 @@ There has been [progress behind the scenes](./blog/the_story_so_far_2025.qmd) bu
    target="survey"> <i class="fas fa-donate" style="margin-right: 8px;"></i>Take our Survey!</a>
 :::
 
+You can also [sign up for updates](signup.qmd) and we'll let you know how the campaign is progressing and when there's something you can do to help.
+
 
 ## Updates
 
